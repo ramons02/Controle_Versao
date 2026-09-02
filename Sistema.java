@@ -19,7 +19,7 @@ public class Sistema {
         return (nota1 + nota2) / 2.0;
     }
 
-    // Verifica a situação do aluno
+    // Verifica a situação do aluno (Aprovado ou Reprovado)
     public static String verificarSituacao(double media) {
         return media >= NOTA_MINIMA_APROVACAO ? "Aprovado" : "Reprovado";
     }
